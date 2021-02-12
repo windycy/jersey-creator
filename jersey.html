@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockey Jersey Maker</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jersey">
+      <div class="jersey-main" id="jersey-main">
+        <div class="jersey-body">
+          <div class="logo-background">
+            <div class="logo" id="logo">
+              <i id="logo-icon" class="fas fa-anchor"></i>
+            </div>
+          </div>
+          <div class="stripe"></div>
+        </div>
+        <div class="jersey-left-arm">
+          <div class="stripe"></div>
+        </div>
+        <div class="jersey-right-arm">
+          <div class="stripe"></div>
+        </div>
+      </div>
+      <div class="neckline"></div>
+      <div class="neckline-inside"></div>
+      
+
+      <div class="team-name" contenteditable="true"><span id="team-name-city">Florida</span> <span id="team-name-logo">Anchors</span></div>
+    </div>
+    <div class="controls">
+      <div class="form-group">
+        <label for="logo-image">Logo Image</label>
+        <select id="logo-image" class="form-control" name="logo-image">
+          <option value="anchor">Anchor</option>
+          <option value="apple-alt">Apple</option>
+          <option value="atom">Atom</option>
+          <option value="baby">Baby</option>
+          <option value="bacon">Bacon</option>
+          <option value="birthday-cake">Birthday Cake</option>
+          <option value="ship">Boat</option>
+          <option value="bomb">Bomb</option>
+          <option value="book">Book</option>
+          <option value="broom">Broom</option>
+          <option value="bug">Bug</option>
+          <option value="bullhorn">Bullhorn</option>
+          <option value="burn">Burn</option>
+          <option value="campground">Campground</option>
+          <option value="candy-cane">Candy Cane</option>
+          <option value="car-battery">Car Battery</option>
+          <option value="carrot">Carrot</option>
+          <option value="cat">Cat</option>
+          <option value="cheese">Cheese</option>
+          <option value="chess">Chess</option>
+          <option value="chess-king">Chess King</option>
+          <option value="chess-knight">Chess Knight</option>
+          <option value="chess-pawn">Chess Pawn</option>
+          <option value="cloud-meatball">Cloud Meatball</option>
+          <option value="coffee">Coffee</option>
+          <option value="compact-disc">Compact Disc</option>
+          <option value="cookie-bite">Cookie Bite</option>
+          <option value="copyright">Cs</option>
+          <option value="crow">Crow</option>
+          <option value="dice">Dice</option>
+          <option value="dice-d20">Dice D20</option>
+          <option value="dog">Dog</option>
+          <option value="dove">Dove</option>
+          <option value="dragon">Dragon</option>
+          <option value="egg">Egg</option>
+          <option value="feather">Feather</option>
+          <option value="feather-alt">Feather #2</option>
+          <option value="fire-alt">Fire</option>
+          <option value="fish">Fish</option>
+          <option value="flask">Flask</option>
+          <option value="football-ball">Football Ball</option>
+          <option value="frog">Frog</option>
+          <option value="gamepad">Gamepad</option>
+          <option value="ghost">Ghost</option>
+          <option value="gifts">Gifts</option>
+          <option value="grin-tongue-squint">Grin Tongue Squint</option>
+          <option value="hamburger">Hamburger</option>
+          <option value="hat-cowboy">Hat Cowboy</option>
+          <option value="hat-cowboy-side">Hat Cowboy Side</option>
+          <option value="hat-wizard">Hat Wizard</option>
+          <option value="headphones">Headphones</option>
+          <option value="heartbeat">Heartbeat</option>
+          <option value="hippo">Hippo</option>
+          <option value="hockey-puck">Hockey Puck</option>
+          <option value="holly-berry">Holly Berry</option>
+          <option value="horse">Horse</option>
+          <option value="horse-head">Horse Head</option>
+          <option value="hotdog">Hotdog</option>
+          <option value="ice-cream">Ice Cream</option>
+          <option value="infinity">Infinity</option>
+          <option value="jedi">Jedi</option>
+          <option value="kiss">Kiss</option>
+          <option value="kiwi-bird">Kiwi Bird</option>
+          <option value="lemon">Lemon</option>
+          <option value="mask">Mask</option>
+          <option value="meh-rolling-eyes">Meh Rolling Eyes</option>
+          <option value="meteor">Meteor</option>
+          <option value="microchip">Microchip</option>
+          <option value="microscope">Microscope</option>
+          <option value="mobile-alt">Mobile</option>
+          <option value="motorcycle">Motorcycle</option>
+          <option value="mountain">Mountain</option>
+          <option value="music">Music</option>
+          <option value="not-equal">Not Equal</option>
+          <option value="otter">Otter</option>
+          <option value="paint-brush">Paint Brush</option>
+          <option value="paperclip">Paperclip</option>
+          <option value="paper-plane">Paper Plane</option>
+          <option value="paw">Paw</option>
+          <option value="pencil-alt">Pencil</option>
+          <option value="pepper-hot">Pepper Hot</option>
+          <option value="pizza-slice">Pizza Slice</option>
+          <option value="plane">Plane</option>
+          <option value="puzzle-piece">Puzzle Piece</option>
+          <option value="quidditch">Quidditch</option>
+          <option value="rainbow">Rainbow</option>
+          <option value="registered">Rs</option>
+          <option value="robot">Robot</option>
+          <option value="rocket">Rocket</option>
+          <option value="seedling">Seedling</option>
+          <option value="shield-alt">Shield</option>
+          <option value="skating">Skating</option>
+          <option value="skull-crossbones">Skull Crossbones</option>
+          <option value="smile-wink">Smile Wink</option>
+          <option value="snowman">Snowman</option>
+          <option value="snowplow">Snowplow</option>
+          <option value="socks">Socks</option>
+          <option value="spa">Spa</option>
+          <option value="space-shuttle">Space Shuttle</option>
+          <option value="spider">Spider</option>
+          <option value="square-root-alt">Square Root</option>
+          <option value="stroopwafel">Stroopwafel</option>
+          <option value="sun">Sun</option>
+          <option value="tachometer-alt">Tachometer</option>
+          <option value="thumbtack">Thumbtack</option>
+          <option value="toilet-paper">Toilet Paper</option>
+          <option value="tree">Tree</option>
+          <option value="truck-monster">Truck Monster</option>
+          <option value="tv">TV</option>
+          <option value="umbrella">Umbrella</option>
+          <option value="umbrella-beach">Umbrella Beach</option>
+          <option value="user-astronaut">User Astronaut</option>
+          <option value="user-ninja">User Ninja</option>
+          <option value="user-secret">User Secret</option>
+          <option value="water">Water</option>
+          <option value="wave-square">Wave Square</option>
+          <option value="wind">Wind</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="mainColor">Main Jersey Color</label>
+        <input type="color" id="mainColor" name="mainColor" />
+      </div>
+      <div class="form-group">
+        <label for="accent1Color">Jersey Accent 1 Color</label>
+        <input type="color" id="accent1Color" name="accent1Color" />
+      </div>
+      <div class="form-group">
+        <label for="accent2Color">Jersey Accent 2 Color</label>
+        <input type="color" id="accent2Color" name="accent2Color" />
+      </div>
+      <div class="form-group">
+        <label for="logoBkgColor">Logo Background Color</label>
+        <input type="color" id="logoBkgColor" name="logoBkgColor" />
+      </div>
+      <div class="form-group">
+        <label for="logoColor">Logo Color</label>
+        <input type="color" id="logoColor" name="logoColor" />
+      </div>
+    </div>
+  </div>
+  <a href='https://www.freepik.com/vectors/poster' class="attribution">Poster vector created by vectorpouch - www.freepik.com</a>
+  <script src="script.js"></script>
+</body>
+</html>
