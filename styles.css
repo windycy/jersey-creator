@@ -238,11 +238,11 @@ a.attribution:hover {
   }
 
   .neckline {
-    top: 0px;
+    top: 12px;
   }
 
   .neckline-inside {
-    top: -8px;
+    top: 12px;
     height: 55px;
   }
 
@@ -250,12 +250,9 @@ a.attribution:hover {
     width: 100%;
     height: 45%;
   }
-}
-
-@media screen and (max-width: 410px) {
   body {
     background-image: none;
-    background-color: white;
+    background-color: #1b4c8e;
   }
   a.attribution {
     display: none;
